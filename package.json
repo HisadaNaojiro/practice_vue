@@ -1,0 +1,35 @@
+{
+  "name": "practice_vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack watch --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HisadaNaojiro/practice_vue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HisadaNaojiro/practice_vue/issues"
+  },
+  "homepage": "https://github.com/HisadaNaojiro/practice_vue#readme",
+  "dependencies": {
+    "vue": "2.6.12"
+  },
+  "devDependencies": {
+    "@babel/core": "7.13.15",
+    "@babel/preset-env": "7.13.15",
+    "babel-loader": "8.2.2",
+    "css-loader": "5.2.1",
+    "vue-loader": "15.9.6",
+    "vue-template-compiler": "2.6.12",
+    "webpack": "5.31.2",
+    "webpack-cli": "4.6.0"
+  }
+}
